@@ -1,3 +1,7 @@
+This repository supplements the paper: 'Do beach profiles under non-breaking waves minimize energy dissipation?' by S. Maldonado (currently under review)
+
+NOTES:
+
 This folder contains the following files:
 
 1. 'mathematica_aided_work.nb' is a Wolfram Mathematica notebook (written in version 11.2.0.0) that supplements some of the work presented in sections 3 and 4. This file can be used to reproduce any solution given in the paper. More details are given in the notebook.
@@ -10,4 +14,4 @@ This folder contains the following files:
 
 
 
-Sergio Maldonado
+S. Maldonado
