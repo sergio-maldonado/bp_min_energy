@@ -1,12 +1,12 @@
 % Computes the value of the functional J[h(x)] for a given curve
 % and also maximum local bed slope found in the profile
 %
-% Sergio Maldonado 2019
+% Sergio Maldonado
 % written in Matlab 2017b
 %
 % supplementary code to:
 % Maldonado, S. (under review) Do beach profiles under non-breaking
-% waves minimise energy dissipation?
+% waves minimize energy dissipation?
 %
 % NOTES:
 % -F[h] may be estimated analytically for some curves (e.g. a line), but we
@@ -23,8 +23,8 @@ close all
 %input data ==============================================
 
 %beach profile:
-dire  = '/some/folder/here/';
-file = 'some_profile.dat';
+dire  = '/some/folder/here';
+file = 'some_data_file.dat';
 
 n = 2;  % n_tau
 
@@ -35,7 +35,7 @@ cd(dire)
 ne = -3*(n + 1)/4;
 
 pr = importdata(file);
-% pr = pr';
+pr = pr';
 
 x = pr(:,1);
 h = pr(:,2);
